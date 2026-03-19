@@ -1,1 +1,8 @@
-
+name: Welcome
+on: [push]
+jobs:
+ Welcome:
+  runs-on: unbuntu-latest
+steps:
+  - name: say welcome
+    run: echo "welcome to github Actions"
